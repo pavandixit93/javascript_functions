@@ -48,7 +48,7 @@ function getRandomIntInclusive(min, max) {
 getRandomIntInclusive(3,7);
 getRandomIntInclusive(2,9);
 
-//Get a random item from an array
+//Get a random item from an array using Math.random()
 
 var items = [12, 548 , 'a' , 2 , 5478 , 'foo' , 8852, , 'Doe' , 2145 , 119];
 var  randomItem = items[Math.floor(Math.random() * items.length)];
